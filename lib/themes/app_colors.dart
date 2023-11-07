@@ -10,6 +10,8 @@ class AppColors {
   static Color paymentMethodCardNumberColor = const Color(0xFF9C9C9C);
   static Color paymentMethodReceiptColor = const Color(0xFF9D9D9D);
 
-
-  static ButtonStyle buttonStyle = ElevatedButton.styleFrom(elevation: 0, foregroundColor: buttonForeground, backgroundColor: buttonBackground);
+  static ButtonStyle buttonStyle = ElevatedButton.styleFrom(
+      elevation: 0,
+      foregroundColor: buttonForeground,
+      backgroundColor: buttonBackground);
 }

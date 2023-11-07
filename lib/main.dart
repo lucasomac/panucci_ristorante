@@ -6,14 +6,13 @@ void main() {
 }
 
 class PanucciRistorante extends StatelessWidget {
-const PanucciRistorante({ Key? key }) : super(key: key);
+  const PanucciRistorante({super.key});
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Panucci Ristorante",
-      theme: ThemeData(colorSchemeSeed: Colors.purple, useMaterial3: true),
-      home: const Home()
-    );
+        title: "Panucci Ristorante",
+        theme: ThemeData(colorSchemeSeed: Colors.purple, useMaterial3: true),
+        home: const Home());
   }
 }
