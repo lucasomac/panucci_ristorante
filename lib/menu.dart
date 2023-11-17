@@ -1,5 +1,5 @@
 const String _imageInitialPath = "assets/images";
-const List<Object> destaques = [
+const List<Object> highlights = [
   {
     "image": "$_imageInitialPath/chicken-salad.png",
     "name": "Chicken Salad",
@@ -44,7 +44,7 @@ const List<Object> destaques = [
   }
 ];
 
-const List<Object> comidas = [
+const List<Object> foods = [
   {
     "image": "$_imageInitialPath/chicken-tortilla.png",
     "name": "Chicken Tortilla",
@@ -136,7 +136,7 @@ const List<Object> drinks = [
   }
 ];
 
-const List<Object> pedido = [
+const List<Object> orders = [
   {
     "image": "$_imageInitialPath/chicken-salad.png",
     "name": "Chicken Salad",

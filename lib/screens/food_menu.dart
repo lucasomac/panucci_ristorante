@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:panucci_ristorante/components/food_item.dart';
 
-import '../cardapio.dart';
+import '../menu.dart';
 
 class FoodMenu extends StatelessWidget {
   const FoodMenu({super.key});
 
-  final List items = comidas;
+  final List items = foods;
 
   @override
   Widget build(BuildContext context) {
